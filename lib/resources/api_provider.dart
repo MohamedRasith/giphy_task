@@ -3,7 +3,7 @@ import 'package:giphy_task/models/giphy_model.dart';
 
 class ApiProvider {
   final Dio _dio = Dio();
-  final String _url = 'https://api.giphy.com/v1/gifs/trending?api_key=K8jcUL3T8iIyqJQCvC0O7VdLGVhCH13M&limit=25&rating=g';
+  final String _url = 'https://api.giphy.com/v1/gifs/trending?api_key=K8jcUL3T8iIyqJQCvC0O7VdLGVhCH13M&limit=25&rating=g/';
 
   Future<giphy_model> fetchGiphyList() async {
     try {
